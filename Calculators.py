@@ -1,4 +1,4 @@
-print("Welcome")
+print("Welcome to Simple CLI Calculator")
 
 is_running = True 
 
