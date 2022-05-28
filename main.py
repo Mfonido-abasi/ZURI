@@ -6,6 +6,11 @@
 
 def find_anagram(word, anagram):
     # [assignment] Add your code here
+if(sorted(word) == sorted(anagram)):
+        return True
+    else:
+        return False
 
-    return True
-
+print(find_anagrams("hello", "check"))
+print(find_anagrams("below", "elbow"))
+    
